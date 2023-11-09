@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="rockpaperscissorsform.exe" version="1.0.0.0" publicKeyToken="beb06a0df3befb5c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="rockpaperscissorsform" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="rockpaperscissorsform.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="rockpaperscissorsform.exe" size="59872">
+      <assemblyIdentity name="rockpaperscissorsform" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VDVhXOArW4UDQHiBVOFatQ8SiLCNblYjeCYvkRCBtFs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="rockpaperscissorsform.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=LAPTOP-V6I43OC1\randi" issuerKeyHash="c58c8c59ce0328558af82e3143735b3d5fa2c5f1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yb/M7nRFZa1dDL8ht82tgeKBPBgL+hOufmP2eUnBkfY=</DigestValue></Reference></SignedInfo><SignatureValue>MXFjWqpqXSDoqP9yT2lhV4gs9cL/34ICjH2EFFk+tJ4HUZKNYrF6eHN2mzal0kt+MRndLorgY9W5K2jmP8esTthBcwY0Ox+ZH/JQIHYkf9tfLdHrLZsXUip9OEuW/SFxUTsuF+EeOg/HYQiN8Kl483s5iakVVS7rkynUJuCpsTM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1H9+vleUonGoSo7ZYo80AQWC9Xk2x0bq+c9UG5OzdcQaeZdzcLZpvKR8xegIX+T6fZwimIdNI+ZDSsJQPx69m9UEstJUXd08Y9kv9JfYxEWlBV/1GabIgnKSF7n34m12XxJy0uTgoPlAr0GUBOAv5/0YUk57QsQCrdM4RD4B0QU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f691c14979f6637eae13fa0b183c81e281adcdb721bf0c5dad654574eeccbfc9" Description="" Url=""><as:assemblyIdentity name="rockpaperscissorsform.exe" version="1.0.0.0" publicKeyToken="beb06a0df3befb5c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-V6I43OC1\randi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>N5LMslU58Jy0KzWBsxs6P2c0l1TuLeM9hoAi/kFm00A=</DigestValue></Reference></SignedInfo><SignatureValue>HzG74uD0ZAj+DD/cQFhAsi3W65c4iSuEvnW2PgUMUr3Xshh4Y/oRY5ASJ+68FCNro/Io5z0/jVlu/INfVLRXKI7931d0NUmvVVeVphj3uOvV3mfkgfchmoswx1DXI3fp8JqknxXz6BriZoe0sX1HK9aM+9QKKB/iMyTALCWSXpo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1H9+vleUonGoSo7ZYo80AQWC9Xk2x0bq+c9UG5OzdcQaeZdzcLZpvKR8xegIX+T6fZwimIdNI+ZDSsJQPx69m9UEstJUXd08Y9kv9JfYxEWlBV/1GabIgnKSF7n34m12XxJy0uTgoPlAr0GUBOAv5/0YUk57QsQCrdM4RD4B0QU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQUkmwMfYkIqBP/Qd6v1R+LDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBWADYASQA0ADMATwBDADEAXAByAGEAbgBkAGkwHhcNMjMxMDE2MDExNDE1WhcNMjQxMDE1MDcxNDE1WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBWADYASQA0ADMATwBDADEAXAByAGEAbgBkAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANR/fr5XlKJxqEqO2WKPNAEFgvV5NsdG6vnPVBuTs3XEGnmXc3C2abykfMXoCF/k+n2cIpiHTSPmQ0rCUD8evZvVBLLSVF3dPGPZL/SX2MRFpQVf9RmmyIJykhe59+Jtdl8SctLk4KD5QK9BlATgL+f9GFJOe0LEAq3TOEQ+AdEFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAdyBFGllFrngz4wiuxS0Z0COru//RNFaeQ+m9oN0ObS4FuILyMr27/i1umIeXc1MCcFmQyhal0v5ZhMNAxzy3QCziBieBHHyU7kIDGYaJI87o+NT9xXJ8b1J5XcThONpNC+XuP14jWCqYftSjN6qBcS1Yn/gvKZATD/VK/E0wS7M=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

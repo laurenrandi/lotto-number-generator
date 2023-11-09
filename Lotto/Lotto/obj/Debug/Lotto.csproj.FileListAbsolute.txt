@@ -1,0 +1,14 @@
+C:\Users\randi\source\repos\Lotto\Lotto\bin\Debug\Lotto.exe.config
+C:\Users\randi\source\repos\Lotto\Lotto\bin\Debug\Lotto.exe
+C:\Users\randi\source\repos\Lotto\Lotto\bin\Debug\Lotto.pdb
+C:\Users\randi\source\repos\Lotto\Lotto\obj\Debug\Lotto.csproj.AssemblyReference.cache
+C:\Users\randi\source\repos\Lotto\Lotto\obj\Debug\Lotto.Form1.resources
+C:\Users\randi\source\repos\Lotto\Lotto\obj\Debug\Lotto.Properties.Resources.resources
+C:\Users\randi\source\repos\Lotto\Lotto\obj\Debug\Lotto.csproj.GenerateResource.cache
+C:\Users\randi\source\repos\Lotto\Lotto\obj\Debug\Lotto.csproj.CoreCompileInputs.cache
+C:\Users\randi\source\repos\Lotto\Lotto\obj\Debug\Lotto.exe
+C:\Users\randi\source\repos\Lotto\Lotto\obj\Debug\Lotto.pdb
+C:\Users\randi\source\repos\Lotto\Lotto\bin\Debug\Lotto.exe.manifest
+C:\Users\randi\source\repos\Lotto\Lotto\bin\Debug\Lotto.application
+C:\Users\randi\source\repos\Lotto\Lotto\obj\Debug\Lotto.exe.manifest
+C:\Users\randi\source\repos\Lotto\Lotto\obj\Debug\Lotto.application
